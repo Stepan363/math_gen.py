@@ -2,10 +2,16 @@ import random
 
 
 div_questions = 0
-multiplication_ques = 0
-common_factor = 10
-
-
+mult_ques = 0
+common_factor = 0
+def multiplication():
+	for i in range(mult_ques):
+		int1 = random.randint(2,15)
+		int2 = random.randint(2,15)
+		print(int1 , "*", int2, "= ?")
+		
+		
+	
 
 def division():
 	for i in range(div_questions):
