@@ -2,10 +2,17 @@ import random
 
 
 div_questions = 20
-multiplication_ques = 0
+multiplication_ques = 10
 common_factor = 10
 
 
+def mult_ques():
+
+
+	for z in range(multiplication_ques):
+		int1 = random.randint(4,11)
+		int2 = random.randint(4,11)
+		print(int1, "*", int2, "= ?")
 
 def division():
 
@@ -47,6 +54,7 @@ def factors():
 			answers.append("")
 		answer_add = []
 factors()
+mult_ques()
 print("ANSWERS")
 print("")
 print("")
