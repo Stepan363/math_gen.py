@@ -44,8 +44,8 @@ def common_factor():
 			for z in zambia:
 				if z == to_check:
 					common_factor_answer.append(to_check)
-		print(int1_iterate)
-		print(int2_iterate)
+		#print(int1_iterate)
+		#print(int2_iterate)
 
 
 		boogazagga = "common factor answer for", min(round(int2), int1) ,max(int1,int2), "--->", common_factor_answer
@@ -57,6 +57,8 @@ def common_factor():
 
 
 common_factor()
+answers.append("")
+answers.append("")
 
 def mult_ques():
 
@@ -117,9 +119,6 @@ for i in answers:
 
 
 #'''
-
-
-'''
 output ___________________________________________________________________>
 
 
@@ -127,35 +126,17 @@ output ___________________________________________________________________>
 
 
 common factor of: 23 , 46
-[46, 23, 2, 1]
-[23, 1]
 common factor of: 9 , 36
-[36, 18, 12, 9, 6, 4, 3, 2, 1]
-[9, 3, 1]
 common factor of: 11 , 33
-[33, 11, 3, 1]
-[11, 1]
 common factor of: 5 , 15
-[15, 5, 3, 1]
-[5, 1]
 common factor of: 9 , 27
-[27, 9, 3, 1]
-[9, 3, 1]
 common factor of: 35 , 70
-[35, 7, 5, 1]
-[70, 35, 14, 10, 7, 5, 2, 1]
 common factor of: 19 , 38
-[38, 19, 2, 1]
-[19, 1]
 common factor of: 11 , 33
-[33, 11, 3, 1]
-[11, 1]
 common factor of: 41 , 82
-[41, 1]
-[82, 41, 2, 1]
 common factor of: 11 , 44
-[44, 22, 11, 4, 2, 1]
-[11, 1]
+
+
 36 / 4 = ?
 63 / 9 = ?
 25 / 5 = ?
@@ -200,6 +181,8 @@ ANSWERS
 ('common factor answer for', 11, 33, '--->', [11, 1])
 ('common factor answer for', 41, 82, '--->', [41, 1])
 ('common factor answer for', 11, 44, '--->', [11, 1])
+
+
 ['ANSWER FOR', 35, ':', 1, 5, 7, 35]
 
 
